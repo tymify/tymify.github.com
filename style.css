@@ -39,6 +39,7 @@
     }
     .container-fluid .container .row-fluid .span12 p.p-1 {
       font-size: 17px;
+      line-height: 26px;
     }
     .container-fluid .container .row-fluid .span12 p.p-4 {
       font-weight: 300;
@@ -46,21 +47,17 @@
       line-height: 30px;
     }
     .container-fluid .container .row-fluid .span12.span12-1 {
-      padding: 0px 10px 0px 10px;
+      padding: 20px 0px 0px 0px;
+      height: 60px;
     }
     .container-fluid .container .row-fluid .span12.span12-2 {
+      padding: 0px 10px 0px 10px;
+    }
+    .container-fluid .container .row-fluid .span12.span12-3 {
       padding: 5px 0px 0px 0px;
     }
-    .container-fluid .container .row-fluid .span6.span6-1 {
-      padding-top: 20px;
-      height: 70px;
-    }
-    .container-fluid .container .row-fluid .span6.span6-2 {
-      padding: 20px 0px 0px 0px;
-      height: 78px;
-    }
     .container-fluid .container.container-1 {
-      height: 78px;
+      height: 80px;
     }
     .container-fluid .row-fluid .span12 p.p-7 {
       margin: 0px 0px 20px;
@@ -149,7 +146,7 @@
       /* centers the document */
       margin: 0 auto;
     }
-    .container-fluid .container .row-fluid .span6 .brand {
+    .container-fluid .container .row-fluid .span12 .brand {
       background: #680148;
       font-family:"helvetica neue";
       font-size: 28px;
@@ -158,14 +155,14 @@
       line-height: 40px;
       padding: 30px;
     }
-    .container-fluid .container .row-fluid .span6 .nav {
+    .container-fluid .container .row-fluid .span12 .nav {
       margin: 0px;
     }
-    .container-fluid .container .row-fluid .span6 .nav li a {
+    .container-fluid .container .row-fluid .span12 .nav li a {
       text-align: center;
       color: #333333;
     }
-    .container-fluid .container .row-fluid .span6 .nav li a .icon {
+    .container-fluid .container .row-fluid .span12 .nav li a .icon {
       font-size: 20px;
       margin: -4px 5px 0px 0px;
       color: #333333;
@@ -189,4 +186,8 @@
     .container-fluid .container .row-fluid .span12 .pull-left p {
       font-weight: 300;
       line-height: 36px;
+    }
+
+    .container-fluid .container .row-fluid .span12 .brand {
+      text-decoration: none;
     }
