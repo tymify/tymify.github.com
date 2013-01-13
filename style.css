@@ -1,0 +1,163 @@
+    .container .row-fluid .span12 p.p-3 {
+      font-weight: 300;
+      font-size: 22px;
+      text-align: center;
+    }
+    .container .row-fluid .span4 .heading.heading-1 {
+      font-weight: normal;
+      font-size: 29px;
+      text-align: center;
+      color: #454545;
+    }
+    .container .row-fluid .span4 p.p-2 {
+      font-weight: 300;
+      font-size: 16px;
+      text-align: center;
+      line-height: 25px;
+    }
+    .container-fluid .container .row-fluid .span12 .page-header h1 small.small-1 {
+      font-size: 42px;
+      line-height: 42px;
+    }
+    .container-fluid .container .row-fluid .span12 .page-header h1 small.small-2 {
+      font-size: 40px;
+      line-height: 42px;
+    }
+    .container-fluid .container .row-fluid .span12 .page-header h1.h1-1 {
+      font-weight: normal;
+      font-size: 42px;
+      color: #555555;
+    }
+    .container-fluid .container .row-fluid .span12 .page-header.page-header-1 {
+      padding: 0px;
+      border: none;
+    }
+    .container-fluid .container .row-fluid .span12 p.p-1 {
+      font-size: 17px;
+    }
+    .container-fluid .container .row-fluid .span12 p.p-5 {
+      font-weight: 300;
+      font-size: 19px;
+      line-height: 30px;
+    }
+    .container-fluid .container .row-fluid .span12.span12-1 {
+      padding: 0px 10px 0px 10px;
+    }
+    .container-fluid .container .row-fluid .span12.span12-2 {
+      padding: 5px 0px 0px 0px;
+    }
+    .container-fluid .container .row-fluid .span6.span6-1 {
+      padding-top: 20px;
+      height: 70px;
+    }
+    .container-fluid .container .row-fluid .span6.span6-2 {
+      padding: 20px 0px 0px 0px;
+      height: 78px;
+    }
+    .container-fluid .container.container-1 {
+      height: 78px;
+    }
+    .container-fluid.container-fluid-1 {
+      background: #e0eff1;
+      border-bottom: 1px solid #7db4b5;
+      border-top: 1px solid #7db4b5;
+      padding: 30px;
+      border-right: none;
+      border-left: none;
+    }
+    .container-fluid.container-fluid-2 {
+      padding: 60px 20px 60px 20px;
+    }
+    .container-fluid.container-fluid-3 {
+      padding: 60px 20px 60px 20px;
+      background: transparent;
+    }
+    .container-fluid.container-fluid-4 {
+      padding: 10px 20px 10px 20px;
+      background: #e0eff1;
+      border-top: 1px solid #7db4b5;
+    }
+    .container.container-2 {
+      margin-top: 60px;
+    }
+    .container.container-3 {
+      padding: 60px 0px 60px 0px;
+    }
+    .container-fluid .container .row-fluid .span12 .page-header.page-header-1 h1 small.small-4 {
+      font-size: 42px;
+      line-height: 42px;
+    }
+    .container-fluid .container .row-fluid .span12 .page-header.page-header-1 h1.h1-4 {
+      font-weight: normal;
+      font-size: 42px;
+      color: #555555;
+      text-align: right;
+    }
+    .container-fluid.container-fluid-2 .container .row-fluid .span12 .page-header h1 small.small-3 {
+      font-size: 42px;
+      line-height: 38px;
+    }
+    .container-fluid.container-fluid-2 .container .row-fluid .span12 .page-header h1.h1-2 {
+      font-weight: normal;
+      font-size: 40px;
+      color: #555555;
+      text-align: right;
+    }
+    .container-fluid.container-fluid-2 .container .row-fluid .span12 .page-header h1.h1-3 {
+      font-weight: normal;
+      font-size: 40px;
+      color: #555555;
+    }
+    .container-fluid.container-fluid-2 .container .row-fluid .span12 .page-header.page-header-2 {
+      padding: 0px;
+      border: none;
+    }
+    .container-fluid.container-fluid-2 .container .row-fluid .span12 .page-header.page-header-3 {
+      padding: 0px;
+      border: none;
+    }
+    .container-fluid.container-fluid-2 .container .row-fluid .span12 p.p-6 {
+      font-weight: 300;
+      font-size: 19px;
+      line-height: 30px;
+    }
+    .container-fluid.container-fluid-2 .container .row-fluid .span12 p.p-7 {
+      font-weight: 300;
+      font-size: 19px;
+      line-height: 30px;
+    }
+    .container.container-3 .row-fluid .span12 p.p-4 {
+      font-weight: 300;
+      font-size: 22px;
+      text-align: center;
+    }
+    .container-fluid .container .row-fluid .span6 .brand {
+      background: #680148;
+      font-family:"helvetica neue";
+      font-size: 28px;
+      font-weight: bold;
+      color: #ffffff;
+      line-height: 40px;
+      padding: 30px;
+    }
+    .container-fluid .container .row-fluid .span6 .nav {
+      margin: 0px;
+    }
+    .container-fluid .container .row-fluid .span6 .nav li a {
+      text-align: center;
+      color: #333333;
+    }
+    .container-fluid .container .row-fluid .span6 .nav li a .icon {
+      font-size: 20px;
+      margin: -4px 5px 0px 0px;
+      height: 20px;
+      width: 20px;
+    }
+    .container-fluid .container .row-fluid .span12 .heading {
+      font-size: 58px;
+      line-height: 64px;
+    }
+    .container-fluid .container .row-fluid .span12 .pull-left p {
+      font-weight: 300;
+      line-height: 36px;
+    }
