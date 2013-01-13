@@ -1,3 +1,8 @@
+    /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+    #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+      margin-top: 0 !important;
+    }
     .container .row-fluid .span12 p.p-3 {
       font-weight: 300;
       font-size: 22px;
@@ -35,7 +40,7 @@
     .container-fluid .container .row-fluid .span12 p.p-1 {
       font-size: 17px;
     }
-    .container-fluid .container .row-fluid .span12 p.p-5 {
+    .container-fluid .container .row-fluid .span12 p.p-4 {
       font-weight: 300;
       font-size: 19px;
       line-height: 30px;
@@ -57,6 +62,12 @@
     .container-fluid .container.container-1 {
       height: 78px;
     }
+    .container-fluid .row-fluid .span12 p.p-7 {
+      margin: 0px 0px 20px;
+      font-weight: 300;
+      font-size: 22px;
+      text-align: center;
+    }
     .container-fluid.container-fluid-1 {
       background: #e0eff1;
       border-bottom: 1px solid #7db4b5;
@@ -69,10 +80,13 @@
       padding: 60px 20px 60px 20px;
     }
     .container-fluid.container-fluid-3 {
-      padding: 60px 20px 60px 20px;
-      background: transparent;
+      background: rgba(0, 0, 0, 0);
+      padding: 60px 20px 40px 20px;
     }
     .container-fluid.container-fluid-4 {
+      padding: 0px 0px 40px 0px;
+    }
+    .container-fluid.container-fluid-5 {
       padding: 10px 20px 10px 20px;
       background: #e0eff1;
       border-top: 1px solid #7db4b5;
@@ -83,6 +97,9 @@
     .container.container-3 {
       padding: 60px 0px 60px 0px;
     }
+    .container.container-4 {
+      padding: 100px 0px 0px 0px;
+    }
     .container-fluid .container .row-fluid .span12 .page-header.page-header-1 h1 small.small-4 {
       font-size: 42px;
       line-height: 42px;
@@ -90,8 +107,8 @@
     .container-fluid .container .row-fluid .span12 .page-header.page-header-1 h1.h1-4 {
       font-weight: normal;
       font-size: 42px;
-      color: #555555;
       text-align: right;
+      color: #555555;
     }
     .container-fluid.container-fluid-2 .container .row-fluid .span12 .page-header h1 small.small-3 {
       font-size: 42px;
@@ -116,20 +133,21 @@
       padding: 0px;
       border: none;
     }
+    .container-fluid.container-fluid-2 .container .row-fluid .span12 p.p-5 {
+      font-weight: 300;
+      font-size: 19px;
+      line-height: 30px;
+    }
     .container-fluid.container-fluid-2 .container .row-fluid .span12 p.p-6 {
       font-weight: 300;
       font-size: 19px;
       line-height: 30px;
     }
-    .container-fluid.container-fluid-2 .container .row-fluid .span12 p.p-7 {
-      font-weight: 300;
-      font-size: 19px;
-      line-height: 30px;
-    }
-    .container.container-3 .row-fluid .span12 p.p-4 {
-      font-weight: 300;
-      font-size: 22px;
-      text-align: center;
+    #absolute-wrapper {
+      position: relative;
+      width: 1190px;
+      /* centers the document */
+      margin: 0 auto;
     }
     .container-fluid .container .row-fluid .span6 .brand {
       background: #680148;
@@ -150,12 +168,23 @@
     .container-fluid .container .row-fluid .span6 .nav li a .icon {
       font-size: 20px;
       margin: -4px 5px 0px 0px;
+      color: #333333;
       height: 20px;
       width: 20px;
     }
     .container-fluid .container .row-fluid .span12 .heading {
       font-size: 58px;
       line-height: 64px;
+    }
+    .rectangle {
+      background: #5cff48;
+      border-radius: 0px;
+      margin: 0px;
+      width: 595px;
+      height: 63px;
+      position: absolute;
+      top: 728px;
+      left: 305px;
     }
     .container-fluid .container .row-fluid .span12 .pull-left p {
       font-weight: 300;
