@@ -97,19 +97,26 @@
         <span class="span12">
           <p class="p-3">Tymify is coming very soon, get a head-start with our beta.</p>
         </span>
-       <!-- BEGIN KICKOFFLABS EMBED CODE -->        
-        <div id='kol_embed' data-page-id='13550' data-button_css_class="button signup-btn" data-height='80px'>
-        </div>
-        <script type="text/javascript">
-        (function(doc, el) {
-        var s = doc.createElement(el);
-        s.src = doc.location.protocol  + '//embed.kickoffpages.com/javascripts/kol_embed.js';
-        s.onload = s.onreadystatechange = function() {
-        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-        try { KOL_Embed_Page.makeFrame(); } catch (e) {}};
-        var scr = doc.getElementsByTagName(el)[0], par = scr.parentNode; par.insertBefore(s, scr);
-        })(document, 'script');</script>
-        <!-- END KICKOFFLABS EMBED CODE -->  
+       <!-- BEGIN KICKOFFLABS EMBED WIDGET CODE -->       
+<div id="kickofflabs_embed_form"
+  data-landing_page_id="13550" 
+  data-signup_text="Enter your email to subscribe:"
+  data-placeholder_text="Type your email here..."
+  data-button_text="Subscribe"
+  data-share_text = "Share our site with your friends!"
+  data-influenced_count_text="Influenced so far:"
+  data-button_css_class="button"
+  data-input_css_class="input"
+  data-promote_text="Check this out!"
+  data-error_message= "There was a problem with your email address!" 
+  ></div>
+<script type="text/javascript">
+      (function(doc, el) {
+      var s = doc.createElement(el);
+      s.src = ('https:' == doc.location.protocol ? 'https:' : 'http:') + '//api.kickofflabs.com/embed/v1/embed.js';
+      var scr = doc.getElementsByTagName(el)[0], par = scr.parentNode; par.insertBefore(s, scr);
+      })(document, 'script');</script>
+<!-- END KICKOFFLABS EMBED WIDGET BAR CODE --> 
       </div>
     </div>
     <div class="container container-4">
