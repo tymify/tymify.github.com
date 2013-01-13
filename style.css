@@ -191,3 +191,8 @@
     .container-fluid .container .row-fluid .span12 .brand {
       text-decoration: none;
     }
+
+    .form-horizontal .control-label{
+      display:none;
+
+    }
