@@ -213,3 +213,35 @@
   border-radius: 0px;
   border: none;
 }
+
+ .button {
+  /*Make it a bigger button */
+  padding: 9px 14px;
+  font-size: 15px;
+  }
+  div.kol-signup-input{
+    display: none;
+  }
+  #kol-signup-email{
+    display: block;
+    border-radius: 0px;
+    border: 1px solid #7db4b5;
+    min-height: 40px;
+    
+  }
+  #kol-signup-email:focus{
+    -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+    background-color: #E0EFF1;
+    border: 1px solid #680148;
+  }
+  #kol-signup-submit{
+    margin:0;
+  }
+  #kol-signup-submit:hover{
+    background-color: #7db4b5;
+  }
+  #influence{
+    display: none;
+  }
